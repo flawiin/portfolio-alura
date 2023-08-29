@@ -19,6 +19,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 10%;
+    flex-direction: row;
 }
 
 .conteudo-principal__conteudo {
@@ -52,45 +53,78 @@ body {
     line-height: 2.25rem; /* 150% */
 }
 
-.conteudo-principal__botoes {
-    display: flex;
-    gap: 2.5rem;
+.imagem {
+    align-self: flex-start;
 }
 
-.instagram {
+.conteudo-principal__botoes {
     display: flex;
-    width: 17.5rem;
-    height: 4.9375rem;
-    padding: 1rem;
-    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
     align-items: center;
-    border-radius: 1rem;
-    border: 0rem solid #22D4FD;
-    background: #22D4FD;
-    color: #000;
-    font-family: 'Montserrat', sans-serif;
+
+}
+
+.conteudo-principal__sub-titulo {
+    color: #F6F6F6;
+    font-family: 'Krona one', sans-serif;
     font-size: 1.5rem;
+    font-weight: 400;
     font-style: normal;
-    font-weight: 600;
-    line-height: 2.25rem;
-    text-decoration: none;
+    line-height: 2.5rem;
+    
 }
 
 .github {
     display: flex;
-    width: 17.5rem;
-    height: 4.9375rem;
+    width: 23.625rem;
     padding: 1rem;
     justify-content: center;
     align-items: center;
-    border-radius: 1rem;
-    border: 0px solid #22D4FD;
-    background: #22D4FD;
-    color: #000;
+    border-radius: .5rem;
+    border: .125rem solid #22D4FD;
+    color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: 2.25rem;
     text-decoration: none;
+    gap: .625rem;
+}
+
+.linkedin {
+    display: flex;
+    width: 23.625rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    border: .125rem solid #22D4FD;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.25rem;
+    text-decoration: none;
+    gap: .625rem;
+}
+
+.twitch {
+    display: flex;
+    width: 23.625rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    border: .125rem solid #22D4FD;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.25rem;
+    text-decoration: none;
+    gap: .625rem;
 }
