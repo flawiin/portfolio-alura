@@ -75,7 +75,7 @@ body {
     
 }
 
-.github {
+.conteudo-principal__links {
     display: flex;
     width: 23.625rem;
     padding: 1rem;
@@ -93,38 +93,6 @@ body {
     gap: .625rem;
 }
 
-.linkedin {
-    display: flex;
-    width: 23.625rem;
-    padding: 1rem;
-    justify-content: center;
-    align-items: center;
-    border-radius: .5rem;
-    border: .125rem solid #22D4FD;
-    color: #F6F6F6;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 2.25rem;
-    text-decoration: none;
-    gap: .625rem;
-}
-
-.twitch {
-    display: flex;
-    width: 23.625rem;
-    padding: 1rem;
-    justify-content: center;
-    align-items: center;
-    border-radius: .5rem;
-    border: .125rem solid #22D4FD;
-    color: #F6F6F6;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 2.25rem;
-    text-decoration: none;
-    gap: .625rem;
+.conteudo-principal__links:hover {
+    background-color: #272727;
 }
