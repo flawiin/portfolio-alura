@@ -38,6 +38,7 @@ body {
     justify-content: space-between;
     margin: 10%;
     flex-direction: row;
+    gap: 5rem;
 }
 
 .conteudo-principal__conteudo {
@@ -123,4 +124,50 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width: 45rem) {
+
+    body {
+        height: auto;
+    }
+
+
+    .cabecalho {
+        margin-top: 8.625rem;
+        padding: 0;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .conteudo-principal {
+        flex-direction: column-reverse;
+        align-content: center;
+        margin-top: 0;
+        gap: 0;
+
+    }
+
+    .conteudo-principal__conteudo {
+        width: 100%;
+    }
+
+    .imagem {
+        align-self: center;
+        margin-bottom: 5.0412rem;
+        margin-top: 8.5275rem;
+        width: 100%;
+    }
+
+    .titulo-principal {
+        font-size: 2rem;
+        padding-left: 1.25rem;
+        
+    }
+
+    .paragrafo {
+        padding-left: 1.25rem;
+    }
 }
