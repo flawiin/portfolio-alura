@@ -128,11 +128,6 @@ body {
 
 @media (max-width: 45rem) {
 
-    body {
-        height: auto;
-    }
-
-
     .cabecalho {
         margin-top: 8.625rem;
         padding: 0;
@@ -151,7 +146,7 @@ body {
     }
 
     .conteudo-principal__conteudo {
-        width: 100%;
+        width: auto;
     }
 
     .imagem {
@@ -169,5 +164,13 @@ body {
 
     .paragrafo {
         padding-left: 1.25rem;
+    }
+
+    .conteudo-principal__links {
+        width: 100%;
+    }
+
+    .conteudo_principal__sub-titulo {
+        width: auto;
     }
 }
